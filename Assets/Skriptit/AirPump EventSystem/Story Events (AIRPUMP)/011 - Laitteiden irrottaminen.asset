@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd96493aa1304d342a17f74962c671b9, type: 3}
+  m_Name: 011 - Laitteiden irrottaminen
+  m_EditorClassIdentifier: 
+  id: 11
+  showMainPanel: 1
+  eventNameFin: Laitteiden irrottaminen
+  eventNameEng: Detaching the equipment
+  eventNameSwe: 
+  panelTextFin: "Neulaventtiiliavaimen sulkemisen j\xE4lkeen laitteet voidaan irrottaa
+    turvallisesti ulkoyksik\xF6st\xE4. \r\nVarmista, ett\xE4 neulaventtiilin neula
+    on vedetty takaisin sis\xE4\xE4n ennen sen irrottamista. \r"
+  panelTextEng: "After closing the needle valve the devices can be detached safely
+    from the outdoor unit. \r\nEnsure that the needle of the needle valve has been
+    retracted before detaching it from the outdoor unit.\r"
+  panelTextSwe: 
+  panelTextFontSize: 30
+  nextArrowActive: 1
+  nextArrowInfoTextFin: 'Sulje huoltoventtiilien tulpat. '
+  nextArrowInfoTextEng: Close the maintenance valve caps.
+  nextArrowInfoTextSwe: 
+  prevArrowActive: 1
+  prevArrowInfoTextFin: "Kiinnit\xE4 neulaventtiiliavaajaty\xF6kalu, huoltoletku
+    ja huoltomittari takaisin alempaan huoltoventtiiliin."
+  prevArrowInfoTextEng: Attach the needle valve tool, maintenance hose and digital
+    manifold to the lower maintenance valve.
+  prevArrowInfoTextSwe: 
+  arrowInfoTextFontSize: 24
+  rectangularButtonActive: 0
+  rectangularButtonAction: 
+  rectangularButtonTextFin: 
+  rectangularButtonTextEng: 
+  rectangularButtonTextSwe: 
+  rectangularButtonFontSize: 20
+  animList:
+  - Hexkey_(parent).toStandby false
+  - Hexkey_(parent).turnUpper false
+  - MeasurementHose.PlayHoseSwitch false
+  - MeasurementHose.PlayHose false
+  - PressureTester.PlayTester false
+  - TubeSocket.PlayTubeSocket false
+  effectList:
+  - DigitalDisplay.Power false delay 0.6

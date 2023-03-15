@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f324763bf3c0f654f97ede1c6da73953, type: 3}
+  m_Name: Mutasihdin Irrotus 3
+  m_EditorClassIdentifier: 
+  showUI: 1
+  headlineFin: Mutasihti on irrotettu
+  headlineEng: The filter has been detached
+  headlineSwe: "Svenska txt h\xE4r"
+  textFin: "Mutasihti on nyt irrotettu onnistuneesti. Tarkista sen kunto ja puhtaus
+    tuomalla se kasvojesi l\xE4helle."
+  textEng: 'The filter has now been detached succesfully. Inspect the condition of
+    the filter  by bringing it close to your face. '
+  textSwe: "Svenska txt h\xE4r."
+  storyButtonConfiguration: 0
+  btnTextFin: Siirry puhdistamaan mutasihti
+  btnTextEng: Proceed to clean the filter
+  btnTextSwe: "Svenska txt h\xE4r"
+  headline: 
+  text: 

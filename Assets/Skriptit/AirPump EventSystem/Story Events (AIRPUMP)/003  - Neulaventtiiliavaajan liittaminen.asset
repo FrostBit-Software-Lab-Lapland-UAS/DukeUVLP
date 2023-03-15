@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd96493aa1304d342a17f74962c671b9, type: 3}
+  m_Name: 003  - Neulaventtiiliavaajan liittaminen
+  m_EditorClassIdentifier: 
+  id: 3
+  showMainPanel: 1
+  eventNameFin: "Neulaventtiiliavaajan liitt\xE4minen"
+  eventNameEng: Attaching the needle valve
+  eventNameSwe: 
+  panelTextFin: "Neulaventtiiliavaajan tarkoitus on suojella k\xE4ytt\xE4j\xE4\xE4
+    kylm\xE4aineelta. Ty\xF6kalu voidaan kiinnitt\xE4\xE4 turvallisesti l\xE4mp\xF6pumpun
+    mittausyhteeseen ja huoltoletkuun ilman kylm\xE4aineen vuotamista. \r\nKaikkien
+    osien kiinnitt\xE4misen j\xE4lkeen venttiiliavainta k\xE4\xE4nt\xE4m\xE4ll\xE4
+    ty\xF6nnet\xE4\xE4n huoltoyhteen neulaventtiili\xE4, jonka siirtyminen mahdollistaa
+    kylm\xE4aineen virtaamisen huoltoletkuun.\r"
+  panelTextEng: "The main purpose of the needle valve is to protect the user from
+    the pressurized cooling agent. The valve can be safely attached to the outdoor
+    unit and the maintenance hose without cooling agent leakages.\r\nAfter every
+    component is attached together, the needle valve can be opened by turning the
+    screw, which in turn pushes a small needle to the outdoor unit\u2019s valve pin,
+    allowing the cooling agent to flow.\r"
+  panelTextSwe: 
+  panelTextFontSize: 30
+  nextArrowActive: 1
+  nextArrowInfoTextFin: "Kiinnit\xE4 sulullinen huoltoletku neulaventtiiliiavaajaan. "
+  nextArrowInfoTextEng: Attach the maintenance hose to the needle valve.
+  nextArrowInfoTextSwe: 
+  prevArrowActive: 1
+  prevArrowInfoTextFin: "Irrota neulaventtiiliavaaja mittausyhteest\xE4. "
+  prevArrowInfoTextEng: Detach the needle valve from the outdoor unit.
+  prevArrowInfoTextSwe: 
+  arrowInfoTextFontSize: 24
+  rectangularButtonActive: 0
+  rectangularButtonAction: 
+  rectangularButtonTextFin: 
+  rectangularButtonTextEng: 
+  rectangularButtonTextSwe: 
+  rectangularButtonFontSize: 20
+  animList:
+  - SocketBolt_NEEDLE.Open true
+  - TubeSocket.PlayTubeSocket true
+  effectList: []

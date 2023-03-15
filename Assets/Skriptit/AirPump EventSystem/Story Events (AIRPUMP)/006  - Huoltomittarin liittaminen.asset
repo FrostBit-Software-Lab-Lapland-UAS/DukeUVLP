@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd96493aa1304d342a17f74962c671b9, type: 3}
+  m_Name: 006  - Huoltomittarin liittaminen
+  m_EditorClassIdentifier: 
+  id: 6
+  showMainPanel: 1
+  eventNameFin: "Huoltomittarin liitt\xE4minen"
+  eventNameEng: Attaching the digital manifold
+  eventNameSwe: 
+  panelTextFin: "Huoltoletku liitet\xE4\xE4n huoltomittarin punaisen puolen High-venttiiliin.
+    \nVarmista viimeist\xE4\xE4n t\xE4ss\xE4 vaiheessa, ett\xE4 kaikki muut huoltomittarin
+    yhteet ovat tulpattuina. "
+  panelTextEng: "The maintenance hose is attached to the digital manifold's valve
+    on the red High-side of the device. \r\nMake sure that every other valve of the
+    manifold has a cap on it before proceeding.\r"
+  panelTextSwe: 
+  panelTextFontSize: 30
+  nextArrowActive: 1
+  nextArrowInfoTextFin: "K\xE4\xE4nn\xE4 neulaventtiiliavainta hitaasti. \r\nSuorita
+    paineen testaus j\xE4\xE4hdytysk\xE4yt\xF6ss\xE4.\r"
+  nextArrowInfoTextEng: "Open the needle valve slowly by turning the screw.\r\nMeasure
+    the pressure when the unit is in cooling mode.\r"
+  nextArrowInfoTextSwe: 
+  prevArrowActive: 1
+  prevArrowInfoTextFin: Irrota huoltomittari huoltoletkusta.
+  prevArrowInfoTextEng: Detach the digital manifold from the maintenance hose.
+  prevArrowInfoTextSwe: 
+  arrowInfoTextFontSize: 24
+  rectangularButtonActive: 0
+  rectangularButtonAction: 
+  rectangularButtonTextFin: 
+  rectangularButtonTextEng: 
+  rectangularButtonTextSwe: 
+  rectangularButtonFontSize: 20
+  animList:
+  - PressureTester.PlayTester true
+  - MeasurementHose.PlayHoseSwitch true
+  effectList:
+  - DigitalDisplay.CalibrationIcons false
+  - REV.DigitalDisplay.ForcePressure 0.0

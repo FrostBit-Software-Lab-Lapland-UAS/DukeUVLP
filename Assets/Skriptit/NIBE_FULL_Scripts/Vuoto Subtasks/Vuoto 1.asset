@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f324763bf3c0f654f97ede1c6da73953, type: 3}
+  m_Name: Vuoto 1
+  m_EditorClassIdentifier: 
+  showUI: 1
+  headlineFin: "Tilan pit\xE4minen puhtaana"
+  headlineEng: Cleanliness
+  headlineSwe: "Svenska txt h\xE4r"
+  textFin: "Tekniset tilat on syyt\xE4 pit\xE4\xE4 siistin\xE4. Siirr\xE4 laatikot
+    pois laitteiden luota."
+  textEng: The immediate surroundings of the system should be kept clean. Remove
+    the boxes.
+  textSwe: "Svenska txt h\xE4r."
+  storyButtonConfiguration: 0
+  btnTextFin: 
+  btnTextEng: 
+  btnTextSwe: 
+  headline: 
+  text: 

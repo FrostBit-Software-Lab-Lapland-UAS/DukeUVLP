@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd96493aa1304d342a17f74962c671b9, type: 3}
+  m_Name: 002  - Paneelin irrotus
+  m_EditorClassIdentifier: 
+  id: 2
+  showMainPanel: 1
+  eventNameFin: Sivupaneelin irrotus
+  eventNameEng: Detaching the panel
+  eventNameSwe: 
+  panelTextFin: "Irrotetaan sivupaneeli, jotta huoltoventtiileihin ja kylm\xE4piiriin
+    p\xE4\xE4st\xE4\xE4n kytkeytym\xE4\xE4n."
+  panelTextEng: Detach the panel on the outdoor unit to gain access to the maintenance
+    valves.
+  panelTextSwe: 
+  panelTextFontSize: 30
+  nextArrowActive: 1
+  nextArrowInfoTextFin: "Liit\xE4 neulaventtiiliavausty\xF6kalu mittausyhteeseen. "
+  nextArrowInfoTextEng: Attach the needle valve to the outdoor unit.
+  nextArrowInfoTextSwe: 
+  prevArrowActive: 1
+  prevArrowInfoTextFin: "Kiinnit\xE4 sivupaneeli takaisin paikalleen ja palaa l\xE4ht\xF6tilanteeseen."
+  prevArrowInfoTextEng: Attach the panel and return to the beginning.
+  prevArrowInfoTextSwe: 
+  arrowInfoTextFontSize: 24
+  rectangularButtonActive: 0
+  rectangularButtonAction: 
+  rectangularButtonTextFin: 
+  rectangularButtonTextEng: 
+  rectangularButtonTextSwe: 
+  rectangularButtonFontSize: 20
+  animList:
+  - Sivupaneeli.DetachPanel true
+  effectList: []

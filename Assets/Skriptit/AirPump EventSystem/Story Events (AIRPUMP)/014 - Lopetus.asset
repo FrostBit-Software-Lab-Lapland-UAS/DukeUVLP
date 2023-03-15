@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd96493aa1304d342a17f74962c671b9, type: 3}
+  m_Name: 014 - Lopetus
+  m_EditorClassIdentifier: 
+  id: 14
+  showMainPanel: 1
+  eventNameFin: Lopetus
+  eventNameEng: The end
+  eventNameSwe: 
+  panelTextFin: "Olet nyt k\xE4ynyt huoltomittarin k\xE4yt\xF6n l\xE4pi vaihe vaiheelta.
+    \r\nKiitos mielenkiinnosta!\r"
+  panelTextEng: 'You have now finished the tutorial of using the digital manifold
+    in a maintenance setting.
+
+    Thank you for your time!'
+  panelTextSwe: 
+  panelTextFontSize: 30
+  nextArrowActive: 0
+  nextArrowInfoTextFin: 
+  nextArrowInfoTextEng: 
+  nextArrowInfoTextSwe: 
+  prevArrowActive: 0
+  prevArrowInfoTextFin: 
+  prevArrowInfoTextEng: 
+  prevArrowInfoTextSwe: 
+  arrowInfoTextFontSize: 24
+  rectangularButtonActive: 1
+  rectangularButtonAction: MAINMENU
+  rectangularButtonTextFin: "Palaa p\xE4\xE4valikkoon"
+  rectangularButtonTextEng: Return to Main Menu
+  rectangularButtonTextSwe: 
+  rectangularButtonFontSize: 36
+  animList: []
+  effectList: []

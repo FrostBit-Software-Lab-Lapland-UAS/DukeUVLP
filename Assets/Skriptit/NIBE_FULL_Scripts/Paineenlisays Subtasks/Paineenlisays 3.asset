@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f324763bf3c0f654f97ede1c6da73953, type: 3}
+  m_Name: Paineenlisays 3
+  m_EditorClassIdentifier: 
+  showUI: 1
+  headlineFin: "Etupaneelin kiinnitt\xE4minen"
+  headlineEng: Reattaching the Front Hatch
+  headlineSwe: "[Svenska txt h\xE4r]"
+  textFin: "Varoventtiili aktivoitui ja vaikuttaa toimivan kuten pit\xE4\xE4kin.
+    \nAseta etupaneeli takaisin paikalleen. "
+  textEng: 'The safety valve has been activated and appears to functions correctly.
+
+    Reattach
+    the front hatch.  '
+  textSwe: "Svenska txt h\xE4r."
+  storyButtonConfiguration: 0
+  btnTextFin: 
+  btnTextEng: 
+  btnTextSwe: 
+  headline: 
+  text: "lis\xE4t\xE4\xE4n painetta jne"

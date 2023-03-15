@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f324763bf3c0f654f97ede1c6da73953, type: 3}
+  m_Name: Aloitus 3
+  m_EditorClassIdentifier: 
+  showUI: 1
+  lookAtPlayerEnabled: 1
+  headlineFin: Kontrollit
+  headlineEng: Controls
+  headlineSwe: "Svenska txt h\xE4r"
+  textFin: "Voit tarttua kappaleisiin etusormen liipaisinpainikkeella. \nK\xE4ytt\xF6liittym\xE4paneelin
+    ikoneita voi aktivoida osoittamalla niit\xE4 laserilla ja painamalla liipaisinpainiketta.
+    Paneelin oikean laidan vihre\xE4 ikoni n\xE4ytt\xE4\xE4 objektien nimet ja sininen
+    ikoni avaa valikon."
+  textEng: 'You can grab objects by pressing and holding the trigger with your index
+    finger.
+
+    UI icons can be interacted with by pointing a laser at them and
+    pressing the trigger button. The green icon on the right side of the panel toggles
+    the names of the objects. The blue icon opens the menu.'
+  textSwe: "Svenska txt h\xE4r."
+  storyButtonConfiguration: 2
+  btnTextFin: Aloita huoltotoimenpiteet
+  btnTextEng: Begin the maintenance
+  btnTextSwe: "Svenska txt h\xE4r"

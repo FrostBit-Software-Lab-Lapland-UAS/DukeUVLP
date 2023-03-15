@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f324763bf3c0f654f97ede1c6da73953, type: 3}
+  m_Name: Vuoto 2
+  m_EditorClassIdentifier: 
+  showUI: 1
+  headlineFin: "Vuoto l\xF6ytyi"
+  headlineEng: Found a leak
+  headlineSwe: "Svenska txt h\xE4r"
+  textFin: "Vuodon l\xF6ytyess\xE4 ota yhteys huoltoliikkeeseen."
+  textEng: Contact a maintenance operator when a leak is found.
+  textSwe: "Svenska txt h\xE4r."
+  storyButtonConfiguration: 2
+  btnTextFin: Siirry seuraavaan vaiheeseen
+  btnTextEng: Proceed to next step
+  btnTextSwe: 
+  headline: 
+  text: 

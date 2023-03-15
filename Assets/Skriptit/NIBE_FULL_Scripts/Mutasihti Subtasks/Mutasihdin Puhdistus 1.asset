@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f324763bf3c0f654f97ede1c6da73953, type: 3}
+  m_Name: Mutasihdin Puhdistus 1
+  m_EditorClassIdentifier: 
+  showUI: 1
+  lookAtPlayerEnabled: 0
+  headlineFin: Mutasihdin puhdistaminen
+  headlineEng: Cleaning the filter
+  headlineSwe: "Svenska txt h\xE4r"
+  textFin: "Puhdista mutasihti viem\xE4ll\xE4 se hanan alle ja huutelemalla se huolellisesti."
+  textEng: 'Clean the filter by bringing it under the faucet and rinsing it thoroughly. '
+  textSwe: "Svenska txt h\xE4r."
+  storyButtonConfiguration: 0
+  btnTextFin: 
+  btnTextEng: 
+  btnTextSwe: 

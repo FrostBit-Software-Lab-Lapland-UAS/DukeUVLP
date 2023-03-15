@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd96493aa1304d342a17f74962c671b9, type: 3}
+  m_Name: 001B - Kontrollit
+  m_EditorClassIdentifier: 
+  id: 1
+  showMainPanel: 1
+  eventNameFin: Kontrollit
+  eventNameEng: Controls
+  eventNameSwe: 
+  panelTextFin: "K\xE4ytt\xF6liittym\xE4paneelin ikoneita voi aktivoida osoittamalla
+    niit\xE4 laserilla ja painamalla liipaisinpainiketta. Nuoli-ikoneita k\xE4ytt\xE4m\xE4ll\xE4
+    voit edet\xE4 huoltotoimenpiteiss\xE4. Paneelin oikean laidan vihre\xE4 ikoni
+    n\xE4ytt\xE4\xE4 objektien nimet ja sininen ikoni avaa valikon.\nHuomioithan
+    kuitenkin, ett\xE4 todellisuudessa vaiheen peruminen ei ole yht\xE4 helppoa kuin
+    virtuaalisessa ymp\xE4rist\xF6ss\xE4!\r\n"
+  panelTextEng: "UI icons can be interacted with by pointing a laser at them and
+    pressing the trigger button. Arrow icons allow you to progress through the steps
+    in either direction. The green icon on the right side of the panel toggles the
+    names of the objects. The blue icon opens the menu.\nPlease note that reversing
+    a step in a real-world scenario is not as simple as in this virtual environment!\r"
+  panelTextSwe: 
+  panelTextFontSize: 30
+  nextArrowActive: 0
+  nextArrowInfoTextFin: "Irrota sivupaneeli ilmal\xE4mp\xF6pumpun kyljest\xE4."
+  nextArrowInfoTextEng: Detach the panel from the heating pump.
+  nextArrowInfoTextSwe: 
+  prevArrowActive: 0
+  prevArrowInfoTextFin: 
+  prevArrowInfoTextEng: 
+  prevArrowInfoTextSwe: 
+  arrowInfoTextFontSize: 24
+  rectangularButtonActive: 1
+  rectangularButtonAction: ALOITA
+  rectangularButtonTextFin: Aloita huolto
+  rectangularButtonTextEng: Start the maintenance
+  rectangularButtonTextSwe: 
+  rectangularButtonFontSize: 36
+  animList: []
+  effectList: []

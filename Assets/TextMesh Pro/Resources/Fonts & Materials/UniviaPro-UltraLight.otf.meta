@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: a36851cc30d03e045966c2963b48982f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Univia Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 729ae0eb2e9f7ed40982967953885ea9, type: 3}
+  - {fileID: 12800000, guid: f129812781c4a5e47b29ee3f291aa1ca, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

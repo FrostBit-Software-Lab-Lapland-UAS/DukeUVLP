@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd96493aa1304d342a17f74962c671b9, type: 3}
+  m_Name: 007  - Laitteiston paineiden testaus
+  m_EditorClassIdentifier: 
+  id: 7
+  showMainPanel: 1
+  eventNameFin: Paineen mittaaminen
+  eventNameEng: Measuring the pressure
+  eventNameSwe: 
+  panelTextFin: "Neulaventtiiliavainta k\xE4\xE4nt\xE4m\xE4ll\xE4 kylm\xE4aine p\xE4\xE4see
+    virtaamaan huoltoletkuun. Py\xF6ritt\xE4minen kannattaa lopettaa heti, kun painelukema
+    huoltomittarissa muuttuu. \r\nPaineiden tasaannuttua otetaan lopullinen tulos
+    yl\xF6s k\xE4ytt\xF6\xF6notto- ja tarkastusp\xF6yt\xE4kirjaan.\r"
+  panelTextEng: "After turning the needle valve the cooling agent flows into the
+    maintenance hose. Stop the turning as soon as the pressure on the display begins
+    to change.\r\nLet the pressure stabilize. Record the pressure value to the maintenance
+    document sheet.\r"
+  panelTextSwe: 
+  panelTextFontSize: 30
+  nextArrowActive: 1
+  nextArrowInfoTextFin: "Kirjaa lukema yl\xF6s ja avaa huoltoventtiilien tulpat."
+  nextArrowInfoTextEng: Record the pressure value and proceed to open the bolt caps
+    of the outdoor unit.
+  nextArrowInfoTextSwe: 
+  prevArrowActive: 1
+  prevArrowInfoTextFin: "Sulje neulaventtiiliavain.\n(<i>Todellisuudessa kylm\xE4aine
+    j\xE4\xE4 letkuun!</i>)"
+  prevArrowInfoTextEng: "Close the neelde valve. \n(<i>In a real world the cooling
+    agent stays in the hose!</i>)"
+  prevArrowInfoTextSwe: 
+  arrowInfoTextFontSize: 24
+  rectangularButtonActive: 0
+  rectangularButtonAction: 
+  rectangularButtonTextFin: 
+  rectangularButtonTextEng: 
+  rectangularButtonTextSwe: 
+  rectangularButtonFontSize: 20
+  animList:
+  - TubeSocket.PlayTubeSocketSwitch true
+  effectList:
+  - 'DigitalDisplay.Pressure 25.3 delay 0.8
+
+'
+  - 'REV.DigitalDisplay.ForcePressure 25.3
+
+'

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd96493aa1304d342a17f74962c671b9, type: 3}
+  m_Name: 005  - Huoltomittarin kalibrointi
+  m_EditorClassIdentifier: 
+  id: 5
+  showMainPanel: 1
+  eventNameFin: Huoltomittarin kalibrointi
+  eventNameEng: Calibrating the digital manifold
+  eventNameSwe: 
+  panelTextFin: "Huoltomittari t\xE4ytyy kalibroida ilmakeh\xE4n paineeseen. T\xE4m\xE4
+    onnistuu useimmissa malleissa painamalla kahta tietty\xE4 painiketta pohjassa
+    v\xE4hint\xE4\xE4n kymmenen sekunnin ajan."
+  panelTextEng: The digital manifold needs to be calibrated to the atmospheric pressure.
+    This can usually be done by holding two pre-determined buttons down for at least
+    ten seconds, but the process varies between manufacturers and models.
+  panelTextSwe: 
+  panelTextFontSize: 30
+  nextArrowActive: 1
+  nextArrowInfoTextFin: "Liit\xE4 huoltomittari huoltoletkuun."
+  nextArrowInfoTextEng: Attach the digital manifold to the maintenance hose.
+  nextArrowInfoTextSwe: 
+  prevArrowActive: 1
+  prevArrowInfoTextFin: Kumoa huoltomittarin kalibrointi.
+  prevArrowInfoTextEng: Cancel the calibration process.
+  prevArrowInfoTextSwe: 
+  arrowInfoTextFontSize: 24
+  rectangularButtonActive: 0
+  rectangularButtonAction: 
+  rectangularButtonTextFin: 
+  rectangularButtonTextEng: 
+  rectangularButtonTextSwe: 
+  rectangularButtonFontSize: 20
+  animList: []
+  effectList:
+  - DigitalDisplay.Power true
+  - DigitalDisplay.CalibrationIcons true
+  - REV.DigitalDisplay.ForcePressure 0.0
+  - REV.DigitalDisplay.CalibrationIcons true
+  - DigitalDisplay.Speed 2

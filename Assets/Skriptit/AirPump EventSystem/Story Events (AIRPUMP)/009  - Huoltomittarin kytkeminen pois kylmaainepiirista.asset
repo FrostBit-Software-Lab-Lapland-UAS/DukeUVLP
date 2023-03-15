@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd96493aa1304d342a17f74962c671b9, type: 3}
+  m_Name: 009  - Huoltomittarin kytkeminen pois kylmaainepiirista
+  m_EditorClassIdentifier: 
+  id: 9
+  showMainPanel: 1
+  eventNameFin: "Huoltomittarin kytkeminen pois kylm\xE4ainepiirist\xE4"
+  eventNameEng: Disengaging the digital manifold from the cooling agent
+  eventNameSwe: 
+  panelTextFin: "Py\xF6ritt\xE4m\xE4ll\xE4 huoltoventtiilin sis\xE4ll\xE4 olevaa
+    sulkua kuusiokulma-avaimella kylm\xE4aineen virtaus sis\xE4yksikk\xF6\xF6n loppuu,
+    jolloin paine l\xE4htee laskemaan my\xF6s huoltomittarissa. Negatiivinen paine
+    osoittaa, ett\xE4 kylm\xE4aine on imeytynyt pois laitteesta."
+  panelTextEng: Turning the valve with a hexkey prevents the cooling agent from flowing
+    into the indoor unit, which in turn causes the pressure to drop on the digital
+    manifold's display. Negative pressure indicates, that the cooling agent has been
+    drained from the manifold.
+  panelTextSwe: 
+  panelTextFontSize: 30
+  nextArrowActive: 1
+  nextArrowInfoTextFin: "Odota, ett\xE4 paine laskee negatiiviseksi. \r\nSulje neulaventtiiliavain.
+    \r"
+  nextArrowInfoTextEng: 'Wait until the pressure is negative.
+
+    Close the needle
+    valve. '
+  nextArrowInfoTextSwe: 
+  prevArrowActive: 1
+  prevArrowInfoTextFin: "Avaa ylempi venttiili ja p\xE4\xE4st\xE4 kylm\xE4aine virtaamaan."
+  prevArrowInfoTextEng: Open the upper valve and let the cooling agent flow.
+  prevArrowInfoTextSwe: 
+  arrowInfoTextFontSize: 24
+  rectangularButtonActive: 0
+  rectangularButtonAction: 
+  rectangularButtonTextFin: 
+  rectangularButtonTextEng: 
+  rectangularButtonTextSwe: 
+  rectangularButtonFontSize: 20
+  animList:
+  - Hexkey_(parent).toStandby true
+  - Hexkey_(parent).turnUpper true
+  effectList:
+  - DigitalDisplay.Pressure -0.7 delay 2.3

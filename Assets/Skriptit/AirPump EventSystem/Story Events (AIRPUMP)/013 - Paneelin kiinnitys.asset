@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd96493aa1304d342a17f74962c671b9, type: 3}
+  m_Name: 013 - Paneelin kiinnitys
+  m_EditorClassIdentifier: 
+  id: 13
+  showMainPanel: 1
+  eventNameFin: Sivupaneelin kiinnitys
+  eventNameEng: Attaching the panel
+  eventNameSwe: 
+  panelTextFin: "Tarkista lopuksi, ett\xE4 kaikki osat ovat oikeilla paikoillaan.
+    \r\nKiinnit\xE4 sivupaneeli takaisin paikalleen.\r"
+  panelTextEng: "Check that every device and piece of equipment are at their right
+    place. \r\nAttach the panel to the outdoor unit.\r"
+  panelTextSwe: 
+  panelTextFontSize: 30
+  nextArrowActive: 1
+  nextArrowInfoTextFin: "Lopeta huoltomittarin k\xE4ytt\xF6."
+  nextArrowInfoTextEng: Finish the maintenance.
+  nextArrowInfoTextSwe: 
+  prevArrowActive: 1
+  prevArrowInfoTextFin: Irrota sivupaneeli.
+  prevArrowInfoTextEng: 'Detach the panel. '
+  prevArrowInfoTextSwe: 
+  arrowInfoTextFontSize: 24
+  rectangularButtonActive: 0
+  rectangularButtonAction: 
+  rectangularButtonTextFin: 
+  rectangularButtonTextEng: 
+  rectangularButtonTextSwe: 
+  rectangularButtonFontSize: 36
+  animList:
+  - Sivupaneeli.DetachPanel false
+  effectList: []

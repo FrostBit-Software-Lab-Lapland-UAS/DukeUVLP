@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd96493aa1304d342a17f74962c671b9, type: 3}
+  m_Name: 012 - Huoltoventtiilien tulppien kiinnitys
+  m_EditorClassIdentifier: 
+  id: 12
+  showMainPanel: 1
+  eventNameFin: Huoltoventtiilin tulppien kiinnitys
+  eventNameEng: Closing the caps on maintenance valves
+  eventNameSwe: 
+  panelTextFin: "Py\xF6rit\xE4 huoltoventtiilien tulpat kiinni huolellisesti."
+  panelTextEng: Screw the bolt caps on tightly.
+  panelTextSwe: 
+  panelTextFontSize: 30
+  nextArrowActive: 1
+  nextArrowInfoTextFin: "Kiinnit\xE4 sivupaneeli paikalleen. "
+  nextArrowInfoTextEng: Attach the panel.
+  nextArrowInfoTextSwe: 
+  prevArrowActive: 1
+  prevArrowInfoTextFin: Avaa huoltoventtiilien tulpat.
+  prevArrowInfoTextEng: Open the caps on the maintenance valves.
+  prevArrowInfoTextSwe: 
+  arrowInfoTextFontSize: 24
+  rectangularButtonActive: 0
+  rectangularButtonAction: 
+  rectangularButtonTextFin: 
+  rectangularButtonTextEng: 
+  rectangularButtonTextSwe: 
+  rectangularButtonFontSize: 20
+  animList:
+  - SocketBolt_UPPER.BoltPlay false
+  - SocketBolt_LOWER.Bolt2Play false
+  - SocketBolt_NEEDLE.Open false
+  effectList:
+  - DigitalDisplay.Power false delay 0.6

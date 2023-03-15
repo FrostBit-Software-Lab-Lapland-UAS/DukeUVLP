@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f324763bf3c0f654f97ede1c6da73953, type: 3}
+  m_Name: Virran kytkeminen OFF 2
+  m_EditorClassIdentifier: 
+  showUI: 1
+  headlineFin: "Virran kytkeminen pois p\xE4\xE4lt\xE4"
+  headlineEng: Turning the power off
+  headlineSwe: "[Svenska txt h\xE4r]"
+  textFin: "Virta on nyt kytketty pois p\xE4\xE4lt\xE4. Huoltotoimenpiteiden suorittaminen
+    voidaan aloittaa."
+  textEng: The power has now been turned off and the maintenance procedure can begin.
+  textSwe: "Svenska txt h\xE4r."
+  storyButtonConfiguration: 2
+  btnTextFin: Siirry seuraavaan vaiheeseen
+  btnTextEng: Proceed to the next step
+  btnTextSwe: "[Svenska txt h\xE4r]"
+  headline: Virta OFF
+  text: "Virta on nyt pois p\xE4\xE4lt\xE4. "
